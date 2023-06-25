@@ -167,7 +167,6 @@ class AvailableCommandsPacket extends DataPacket implements ClientboundPacket{
 			};
 		}
 
-
 		if($protocolId >= ProtocolInfo::PROTOCOL_1_18_30){
 			return match($type) {
 				self::ARG_TYPE_TARGET => 0x07,
